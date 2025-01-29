@@ -59,7 +59,7 @@ class _AnimatedProfileScreenState extends State<_AnimatedProfileScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal,
+      backgroundColor: Colors.cyan,
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -94,10 +94,10 @@ class _AnimatedProfileScreenState extends State<_AnimatedProfileScreen>
                   child: Text(
                     'FLUTTER, ML, LINUX',
                     style: TextStyle(
-                      fontFamily: 'Roboto',
+                      fontFamily: 'Source-serif-4',
                       fontWeight: FontWeight.bold,
                       fontSize: 16.0,
-                      color: Colors.cyanAccent,
+                      color: Colors.tealAccent[100],
                       letterSpacing: 1.5,
                     ),
                   ),
@@ -105,7 +105,7 @@ class _AnimatedProfileScreenState extends State<_AnimatedProfileScreen>
                 SizedBox(
                   height: 16.0,
                   width: 144.0,
-                  child: Divider(color: Colors.tealAccent),
+                  child: Divider(color: Colors.teal[700]),
                 ),
                 SlideTransition(
                   position: _slideAnimation,
@@ -113,11 +113,11 @@ class _AnimatedProfileScreenState extends State<_AnimatedProfileScreen>
                     margin:
                         EdgeInsets.symmetric(vertical: 8.0, horizontal: 24.0),
                     child: ListTile(
-                      leading: Icon(Icons.phone, color: Colors.teal[700]),
+                      leading: Icon(Icons.phone, color: Colors.cyanAccent[700]),
                       title: Text(
                         '+91 8999205770',
                         style: TextStyle(
-                          color: Colors.teal[900],
+                          color: Colors.cyan[900],
                           fontWeight: FontWeight.bold,
                           fontSize: 16.0,
                         ),
@@ -131,11 +131,11 @@ class _AnimatedProfileScreenState extends State<_AnimatedProfileScreen>
                     margin:
                         EdgeInsets.symmetric(vertical: 8.0, horizontal: 24.0),
                     child: ListTile(
-                      leading: Icon(Icons.email, color: Colors.teal[700]),
+                      leading: Icon(Icons.email, color: Colors.cyanAccent[700]),
                       title: Text(
                         'ashishpatel9119@hotmail.com',
                         style: TextStyle(
-                          color: Colors.teal[900],
+                          color: Colors.cyan[900],
                           fontWeight: FontWeight.bold,
                           fontSize: 16.0,
                         ),
@@ -146,7 +146,7 @@ class _AnimatedProfileScreenState extends State<_AnimatedProfileScreen>
                 SizedBox(
                   height: 16.0,
                   width: 144.0,
-                  child: Divider(color: Colors.tealAccent),
+                  child: Divider(color: Colors.teal[700]),
                 ),
               ],
             ),
